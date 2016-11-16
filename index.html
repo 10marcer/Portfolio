@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Local StyleSheet-->
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--font-awesome stylesheet-->
+	<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+
+	
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--Navigation bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Portfolio</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!--About page-->
+<div class="container-fluid text-center aboutbg" id="about">
+	<h2>Ervin E. Marcha</h2>
+	<p><em>Future Web Designer/Developer</em></p>
+	<div class="row">
+		<div class="col-sm-5">
+			<h3 class="text-center">About me</h3>
+			<p class="text-center">Hello!, I'm a aspiring Front-End Developer. I currently attend Temple University as a Information Sciece and Technology student. After interning at a web development company, I have realized that Front-End Development was something I had an interest in. I believe that it is a better choice for me to continue to enjoy coding while also being able to have more of a creative direction with it. I hope you find my Portfolio interesting and I hope to hear from you!</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<img src="images/aboutme.jpg" class="img-circle" alt="Ervin Marcha">
+		</div>
+	</div>
+</div>
+<!--Portfolio page-->
+<div class="tour-bg" id="portfolio">
+	<div class="container-fluid text-center">
+		<h3>PORTFOLIO</h3>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="images/screenshot1.png" class="img-responsive" sytle="width:100%">
+			</div>
+			<div class="col-sm-6">
+				<img src="images/screenshot2.png" class="img-responsive" sytle="width:100%">
+			</div>
+			<div class="col-sm-6">
+				<img src="images/screenshot3.png" class="img-responsive" sytle="width:100%">
+			</div>
+			<div class="col-sm-6">
+				<img src="images/screenshot4.png" class="img-responsive" sytle="width:100%">
+			</div>
+		</div>
+	</div>
+</div>
+<!--Contact Container-->
+<div class="container-fluid contactbg">
+	<h3 class="text-center" id="contact">Contact</h3>
+	<p class="text-center">I would love to hear from you!</p>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="row">
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+				</div>
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+				</div>
+			</div>
+			<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+			<div class="row">
+				<div class="col-md-12 form-group">
+					<button class="btn pull-right" type="submit">Send</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--Footer-->
+<footer class="footer-distributed">
+	<div class="footer-right">
+		<a href="https://www.facebook.com/ervin.marcha"><i class="fa fa-facebook-square"></i></a>
+		<a href="https://twitter.com/ErviiM"><i class="fa fa-twitter-square"></i></a>
+	</div>
+
+	<div class="footer-left">
+		<p>Created By Ervin Marcha &copy; 2016</p>
+	</div>
+</footer>
+
+</body>
+</html>
